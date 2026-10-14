@@ -3,6 +3,7 @@
 ![.NET 10](https://img.shields.io/badge/.NET-10.0-512BD4?logo=dotnet&logoColor=white)
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
+![Microsoft Decision 1](Microsoft-Decision-1-Csharp-Developer.png)
 A small .NET 10 console app that sends a support ticket to **Microsoft-Decision-1**, a decision model in Microsoft Foundry. It prints:
 
 - the team that should handle the ticket (`billing`, `engineering`, or `support`) and its probability
