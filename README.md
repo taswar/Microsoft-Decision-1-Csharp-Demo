@@ -4,6 +4,11 @@
 
 ![.NET 10](https://img.shields.io/badge/.NET-10.0-512BD4?logo=dotnet&logoColor=white)
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+![C# Developers](https://img.shields.io/badge/For-C%23%20Developers-239120)
+![Decision-1 Model](https://img.shields.io/badge/Microsoft--Decision--1-Fast%20Decision%20Scoring-orange)
+![Azure Identity](https://img.shields.io/badge/Azure%20Identity-DefaultAzureCredential-0089D6)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![Made with Love](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red)
 
 A small .NET 10 console app that sends a support ticket to **Microsoft-Decision-1**, a decision model in Microsoft Foundry. It prints:
 
