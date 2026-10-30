@@ -1,14 +1,20 @@
-# Microsoft-Decision-1-Csharp-Demo
+# Microsoft-Decision-1 C# Demo
 
 ![Microsoft Decision 1](Microsoft-Decision-1-Csharp-Developer.png)
 
+[![Build](https://github.com/taswar/Microsoft-Decision-1-Csharp-Demo/actions/workflows/dotnet.yml/badge.svg)](https://github.com/taswar/Microsoft-Decision-1-Csharp-Demo/actions/workflows/dotnet.yml)
 ![.NET 10](https://img.shields.io/badge/.NET-10.0-512BD4?logo=dotnet&logoColor=white)
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![C# Developers](https://img.shields.io/badge/For-C%23%20Developers-239120)
 ![Decision-1 Model](https://img.shields.io/badge/Microsoft--Decision--1-Fast%20Decision%20Scoring-orange)
 ![Azure Identity](https://img.shields.io/badge/Azure%20Identity-DefaultAzureCredential-0089D6)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
-![Made with Love](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
+
+- 📖 Full walkthrough: [Microsoft-Decision-1 for C# Developers](https://taswar.zeytinsoft.com/microsoft-decision-1-for-c-developers/)
+- ⭐ If this sample helps you, star the repo so other .NET developers can find it.
+- 🔁 Related: [Azure OpenAI Decisions API C# Sample](https://github.com/taswar/OpenAI-DecisionApi-CSharp-Sample) and [Cohere Rerank v5 C# Sample](https://github.com/taswar/Cohere-Rerank-V5-Pro-Fast-Csharp-Sample)
+- For more C# samples using other AI models, see [AI models for C# developers](https://taswar.zeytinsoft.com/foundry-ai-models-csharp/)
+- For my free ebook on prompt engineering, see [Prompt Engineering for .NET Developers](https://github.com/taswar/PromptEngineeringForDotNetDevelopers)
 
 A small .NET 10 console app that sends a support ticket to **Microsoft-Decision-1**, a decision model in Microsoft Foundry. It prints:
 
@@ -17,6 +23,16 @@ A small .NET 10 console app that sends a support ticket to **Microsoft-Decision-
 - the probability that the customer has contacted support before
 
 If the team probability is below 70%, the app suggests sending the ticket to a person.
+
+## Quick start
+
+```bash
+git clone https://github.com/taswar/Microsoft-Decision-1-Csharp-Demo.git
+cd Microsoft-Decision-1-Csharp-Demo
+dotnet user-secrets set "AZURE_AI_ENDPOINT" "https://<resource>.services.ai.azure.com"
+az login
+dotnet run
+```
 
 ## Prerequisites
 
