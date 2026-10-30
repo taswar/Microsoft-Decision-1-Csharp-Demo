@@ -10,10 +10,10 @@
 ![Azure Identity](https://img.shields.io/badge/Azure%20Identity-DefaultAzureCredential-0089D6)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
-- 📖 Full walkthrough: [Microsoft-Decision-1 for C# Developers](https://taswar.zeytinsoft.com/microsoft-decision-1-for-c-developers/)
+- 📖 Full walkthrough: [Microsoft-Decision-1 for C# Developers](https://taswar.zeytinsoft.com/microsoft-decision-1-for-c-developers/?utm_source=github&utm_medium=readme&utm_campaign=Microsoft-Decision-1-Csharp-Demo&utm_content=walkthrough)
 - ⭐ If this sample helps you, star the repo so other .NET developers can find it.
 - 🔁 Related: [Azure OpenAI Decisions API C# Sample](https://github.com/taswar/OpenAI-DecisionApi-CSharp-Sample) and [Cohere Rerank v5 C# Sample](https://github.com/taswar/Cohere-Rerank-V5-Pro-Fast-Csharp-Sample)
-- For more C# samples using other AI models, see [AI models for C# developers](https://taswar.zeytinsoft.com/foundry-ai-models-csharp/)
+- For more C# samples using other AI models, see [AI models for C# developers](https://taswar.zeytinsoft.com/foundry-ai-models-csharp/?utm_source=github&utm_medium=readme&utm_campaign=Microsoft-Decision-1-Csharp-Demo&utm_content=ai-models-hub)
 - For my free ebook on prompt engineering, see [Prompt Engineering for .NET Developers](https://github.com/taswar/PromptEngineeringForDotNetDevelopers)
 
 A small .NET 10 console app that sends a support ticket to **Microsoft-Decision-1**, a decision model in Microsoft Foundry. It prints:
